@@ -1,0 +1,30 @@
+/* this is global settings for the whole page.
+    Any line that has the 2 dashes (-) is how we define variables
+    in CSS. to refer to them in other parts of a CSS document we use
+    the function called var(). The input of that function is the variable
+    you want to get the value of. EXAMPLE: var(--number-of-wheels) */
+:root {
+    --bg-color: rgb(45, 39, 39);
+    --accent-color: aqua;
+}
+
+/* this has settings for all elements inside the <body> tag */
+body {
+    background-color: var(--bg-color);
+}
+
+/* this has settings for any element with the <h1> tag */
+h1 {
+    color: var(--accent-color);
+}
+
+/* this affects any items with the class of "main-title" */
+.main-title {
+    margin: 40px;
+}
+
+.register-button {
+    color: chartreuse;
+    background-color: purple;
+    margin: 10px;
+}
