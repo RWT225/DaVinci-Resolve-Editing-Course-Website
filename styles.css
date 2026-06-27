@@ -10,7 +10,8 @@
 
 /* this has settings for all elements inside the <body> tag */
 body {
-    background-color: var(--bg-color);
+    background-color: ;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* this has settings for any element with the <h1> tag */
